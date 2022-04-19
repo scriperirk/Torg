@@ -18,7 +18,7 @@ class ManagerTest {
     private Product book2 = new Book(25, "Software testing", 1500, "Рон Паттон");
     private Product phone1 = new Smartphone(30, "C25s", 65000, "Realme");
     private Product phone2 = new Smartphone(35, "Galaxy S9plus", 45000, "Samsung");
-    private Product product1 = new Product(7, "None", 100);
+    private Product product1 = new Product(7, "Докторская", 100);
 
     @BeforeEach
     void setUp() {
