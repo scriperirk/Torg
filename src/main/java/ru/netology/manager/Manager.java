@@ -31,6 +31,9 @@ public class Manager {
             if (smartphone.getName().equalsIgnoreCase(search)) {
                 return true;
             }
+            if (smartphone.getMnufacturer().equalsIgnoreCase(search)) {
+                return true;
+            }
         }
         return false;
     }
